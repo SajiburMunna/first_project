@@ -34,5 +34,26 @@
 console.log(names.length);
 console.log(names.length-1);
 console.log(names.indexOf(1));
+names.push('i love you');
+console.log(names);
+var asort=names.sort();
+console.log(asort);
+names.splice(5,1);
+console.log(names);
+names.splice(5,1,'you');
+console.log(names);
 
+function add(a,b){
+    return a+b;
+}
+console.log(add(10,30));
+
+var ad=add;
+console.log(ad(30,40));
+
+var add =function (a,b){
+    return a+b;
+}
+
+console.log(add(10,30));
 
